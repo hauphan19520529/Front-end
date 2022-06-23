@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.logogt {
+	margin-top: 10px;
+}
+.biatranggt {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.gioi_thieu{
+	text-align: center;
+	font-family:'Quicksand';
+	width: 80%;
+	margin: auto;
+	padding-bottom: 3rem;
+}
+.gt-content-category{
+	text-align: left;
+	border: solid 1px;
+	margin-bottom: 2rem;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+.kd:hover{
+	transform: translate(-20px,-15px);
+	transition: 0.5s;
+}
+.gd:hover{
+	transform: translate(20px,-15px);
+	transition: 0.5s;
+}
+.tt:hover{
+	transform: translate(-20px,-15px);
+	transition: 0.5s;
+}
+.gt-content-category h3{
+	text-align: center;
+}
+.gt-content-text{
+	padding: 0 1rem 1rem;
+}
+.kd{
+	box-shadow: 5px 5px #888888;
+	overflow: hidden;
+	color: black;
+}
+.gt-content-pic-kd{
+	position: relative;
+	width: 150px;
+	height: 80px;
+	margin: 10px;
+	float: left;
+	clear: both;
+}
+.gd{
+	box-shadow: -5px 5px #888888;
+	overflow: hidden;
+	color: black;
+}
+.gt-content-pic-gd{
+	position: relative;
+	width: 150px;
+	height: 80px;
+	margin: 10px;
+	float: right;
+	clear: both;
+}
+.text-giai-do{
+	text-align: right;
+}
+.tt{
+	box-shadow: 5px 5px #888888;
+	overflow: hidden;
+	color: black;
+}
+
+.gt-content-pic-tt{
+	position: relative;
+	width: 150px;
+	height: 80px;
+	margin: 10px;
+	float: left;
+	clear: both;
+}
+.gt-content-1{
+	margin-bottom: 15px;
+}
+@media screen and (max-width: 600px) {
+	.gt-content-pic-gd{
+		width: 90%;
+		height: 130px;
+	}
+	.gt-content-pic-kd{
+		width: 90%;
+		height: 130px;
+	}
+	.gt-content-pic-tt{
+		width: 90%;
+		height: 130px;
+	}
+}
+

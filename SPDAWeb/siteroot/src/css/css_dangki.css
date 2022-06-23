@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+.tablez {
+	margin: auto;
+	width: 68%;
+}
+
+.default-form{
+	width: 80%;
+	margin: auto;
+	padding: 10%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.header-form h1{
+	text-align: center;
+}
+.header-form p{
+	text-align: center;
+}
+.header-form{
+	padding-bottom: 2rem;
+}
+.inner-from{
+	background-image:url("../img/uncle-ryze-choose-you.png");
+	background-size: 45% 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.inner-fromz{
+	background-image:url("../img/uncle-ryze-choose-you.png");
+	background-size: 20% 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+@media screen and (max-width: 600px) {
+	.tablez {
+		margin: auto;
+		width: 90%;
+	}
+	.inner-from{
+		background-image:url("../img/uncle-ryze-choose-you.png");
+		background-size: 50% 50%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.inner-fromz{
+		background-image:url("../img/uncle-ryze-choose-you.png");
+		background-size: 45% 80%;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.default-form{
+		width: 100%;
+		margin: auto;
+		padding: 10%;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	}
+  }
+.inner-from p{
+	width: 100%;
+	background-color: white;
+	margin: 0;
+	
+}
+
+.form-btn {
+	background-color: #8BC3F7;
+	padding: 1rem 2rem;
+	border: none;
+	border-radius: 5px;
+	font-weight: bolder;
+	color: white;
+	cursor: pointer;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+.question {
+	text-align: center;
+	margin-top: 20px;
+}
+.form-btn:hover{
+	background-color:#2C92F0;
+	transition: 0.8s;
+}
+.form-btn:active{
+	background-color:#2C92F0;
+	transform: translateY(4px);
+}

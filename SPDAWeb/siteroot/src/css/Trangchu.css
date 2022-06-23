@@ -1,0 +1,665 @@
+body {
+    background-image: url("../img/1.png");
+    background-color: #8BC3F7;
+}
+.barz{
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid black;
+	background-color: #eeeeeeb6;
+	padding: 0.8rem 1rem;
+	margin-bottom: 1.5rem;
+	
+}
+.boloc {
+    height: 30px;
+    margin-top: 1px;
+    position: relative;
+}
+
+.thanhtimkiem {
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    text-indent: 20px;
+    position: sticky;
+    top: 49px;
+    z-index: 11;
+    margin-top: -1px;
+    background-color: whitesmoke;
+}
+.game {
+    position: relative;
+    width: 29%;
+    background-color: white;
+    line-height: 40px;
+    margin: 20px;
+    display: inline-block;
+    border: 3px solid black
+}
+.game:hover {
+    border: 3px solid greenyellow
+}
+.cacgame {   
+    width: 60rem;
+    margin: auto;
+}
+.dsgame {
+    color: black;
+}
+.anhtieudegame {
+    position: relative;
+    width: 100%;
+    height: 190px;
+    margin-bottom: -10px;
+}
+.danhgia div {
+    display: inline-block;
+}
+
+.ngayphathanh {
+    margin-bottom: 10px;
+}
+.thanduoi {
+    padding-left: 10px;
+}
+.solike, .sodislike, .socmt {
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.starz {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    float: left;
+}
+.tuongtac {
+    float: right;
+    margin-right: 10px;
+}
+.progressnen {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    background-image: url("../img/saonen.png");
+    background-repeat: no-repeat;
+    background-size: 96.666% 100%;
+    background-position-x: center; 
+}
+.progressnone {
+    background-color: black;
+    width: 96%;
+    height: 100%;
+    position: absolute;
+    clip: rect(2px,86px,30px,1px);
+    z-index: 0;
+    margin-left: 1.5px;
+}
+#progress {
+    background-color: gold;
+    height: 70%;
+    position: absolute;
+    margin-top: 10px;
+    clip: rect(1px,100px,200px,1px);
+    z-index: -2;
+}
+#progressz {
+    background-color: gold;
+    height: 80%;
+    position: absolute;
+    clip: rect(1px,200px,100px,1px);
+    z-index: -2;
+}
+.ngoisao {
+    z-index: 3;
+    position: relative;
+    color: black;
+}
+.tuagame {
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 768px) {
+    .cacgame {   
+        width: 45rem;
+    }
+    .starz {
+        margin-left: 40px;
+    }
+    .anhtieudegame {
+        position: relative;
+        width: 100%;
+        height: 130px;
+        margin-bottom: -10px;
+    }
+    .game {
+        position: relative;
+        width: 27.5%;
+        background-color: white;
+        line-height: 40px;
+        margin: 20px;
+        display: inline-block;
+        border: 2px solid black;
+    }
+    .tuongtac {
+        margin-right: 40px;
+        font-size: 15px;
+    }
+    .solike, .sodislike, .socmt {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .danhgia  {
+        
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .cacgame {   
+        width: 85%;
+    }
+    .starz {
+        margin-left: 0px;
+    }
+    .game {
+        position: relative;
+        width: 100%;
+        background-color: white;
+        line-height: 40px;
+        border: 3px solid black;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .anhtieudegame {
+        position: relative;
+        width: 100%;
+        height: 170px;
+        margin-bottom: -10px;
+    }
+    .solike, .sodislike, .socmt {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+/* Trang của một game cụ thể----------------------------------------------------------------------- */
+.anhbaiviet {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.linksteam {
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.thongtinsobo div {
+    display: inline-block;
+}
+#uplike:hover {
+    color: rgb(11, 129, 240);
+    cursor: pointer;
+}
+.like-pressed {
+    color: rgb(11, 129, 240);
+    cursor: pointer;
+}
+
+#downlike:hover {
+    color: red;
+    cursor: pointer;
+}
+.dislike-pressed {
+    color: red;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .starzz {
+        left: -55px;
+        margin-bottom: 10px;
+    }
+    .tuongtacz {
+        position: relative;
+        left: 20.2%;
+    }
+    .solike, .sodislike, .socmt {
+        margin-right: 3px;
+        margin-left: 5px;
+    }
+}
+.starzz {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    top: -3px;
+    z-index: 10;
+    float: right;
+}
+.starzzx {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    top: -3px;
+    z-index: 10;
+}
+.progressnenblack {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    position: absolute;
+    background-image: url("../img/saonenwhite.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.progressnenblackxx {
+    background-image: url("../img/saonenz.png");
+}
+.ngoisaozx {
+    color: yellow;
+    z-index: 3;
+    position: relative;
+    font-size: 20px;
+}
+.progressnonez {
+    width: 96%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    margin-left: 1.5px;
+}
+.ngoisaoz {
+    color: black;
+    z-index: 3;
+    position: relative;
+    font-size: 20px;
+}
+.tuongtacz {
+    position: relative;
+    color: black;
+    font-size: 120%;
+    float: left;
+    margin-right: 10px;
+    margin-top: -4px;
+}
+.tuongtaczx {
+    position: relative;
+    color: black;
+    font-size: 120%;
+    float: left;
+    margin-right: 10px;
+    margin-top: -4px;
+}
+@media screen and (max-width: 600px) {
+    .tuongtaczx {
+        position: relative;
+        color: black;
+        font-size: 120%;
+        float: left;
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+}
+.content {
+    position: relative;
+    white-space: pre-line;
+}
+.contentz {
+    width: 100%;
+}
+strong {
+    font-weight: bolder;
+}
+
+.slide {
+    width: 60%;
+    margin: auto;
+}
+.slidetren {
+    width: 100%;
+    height: 40%;
+}
+.slideduoi {
+    height: 150px;
+    width: 100%;
+    box-sizing: border-box;
+    border: white solid 1px;
+}
+@media screen and (max-width: 768px) {
+    .slideduoi {
+        height: 110px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .slideduoi {
+        height: 60px;
+        width: 100%;
+    }
+}
+.slick-prev:before,
+.slick-next:before
+{
+    color: black;
+}
+.nuttrang {
+    color: white;
+}
+/*----phần cmt---------*/
+.cmtsec {
+    border-top: solid rgb(182, 182, 182) 1px;
+}
+.avatar {
+    width: 10%;
+    height: 10%;
+}
+.hinhdaidien {
+    width: 100%;
+    height: 100%;
+    margin-left: 12px;
+}
+.phancmt {
+    border: gray solid 1px;
+    width: 84%;
+    margin-left: 30px;
+}
+.nhapcmt {
+    width: 100%;
+    height: 100%;
+    text-indent: 10px;
+}
+.submitcmt {
+    float: right;
+    height: 40px;
+    width: 80px;
+    
+}
+@media screen and (max-width: 600px) {
+    .hinhdaidien {
+        width: 100%;
+        height: 100%;
+        margin-left: 5px;
+    }
+    .phancmt {
+        border: gray solid 1px;
+        width: 80%;
+        margin-left: 10px;
+    }
+}
+/*----Trang chủ------------------------------------------------*/
+.footer {
+    margin-bottom: -20px;
+}
+.logo {
+    height: 18px;
+}
+#top-header{
+    width: 100%;
+}
+.table{
+    margin: auto;
+	width: 68%;
+}
+@media screen and (max-width: 768px) {
+    .table{
+        margin: auto;
+        width: 80%;
+    }
+}
+
+.body-content{
+    background-color: white;
+	min-height: 50px;
+    margin-top: 7px;
+}
+.footer{
+    background-color: #1F1F1F;
+	color: white;
+	height: auto;
+}
+.footer img{
+    margin: 1rem 0 0 1rem;
+}
+#web-decrip{
+	padding: 0rem 0 1rem 1rem;
+	width: 30%;
+}
+#copyright{
+    margin-top: 4rem;
+	padding-right: 1rem;
+	text-align: right;
+	float: right;
+}
+.content-btn{
+    margin: 0.5rem;
+	padding: 1rem 2rem;
+	border: none;
+	background-color: white;
+	font-weight: bolder;
+	border-radius: 10px;
+}
+.content-btn:hover{
+    color: white;
+	background-color: #1A89EF;
+}
+.body-content{
+    position: relative;
+	background-color: white;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+    height: 100%;
+}
+
+.thanhsearch {
+    width: 100%;
+    height: 50px;
+    font-size: 100%;
+    text-indent: 2%;
+    border-radius: 10px;
+}
+/*---Các game được hiển thị ở trang chủ--------*/
+#ttsobo {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.totalreacts {
+    position: relative;
+    top: -3.3px;
+    left: 2px;
+}
+@media screen and (max-width: 768px) {
+    #ttsobo {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #ttsobo {
+        margin-bottom: 30px;
+        margin-top: 10px;
+    }
+}
+.mucgamehot {
+  position: relative;
+}
+.cacgamehot{
+    position: absolute;
+}
+.hotgames {
+    color: black;
+    width: 50%;
+    margin-left: 2rem;
+}
+.hotgames:hover {
+    opacity: 0.7;
+}
+.bestt {
+    color: black;
+}
+.hotgamesnhi {
+    color: black;
+    width: 85%;
+    padding-bottom: 20px;
+}
+.hotgamesnhi:hover {
+    opacity: 0.7;
+}
+.cacgamehotnhi {
+    position: relative;
+    margin-left: 60%;
+}
+@media screen and (max-width: 600px) {
+    .hotgames {
+        width: 80%;
+        margin:auto
+    }
+    .hotgamesnhi {
+        width: 80%;
+        padding-bottom: 20px;
+        margin: auto;
+    }
+    .cacgamehot{
+        position: relative;
+        width: 100%;
+    }
+    .cacgamehotnhi {
+        position: relative;
+        margin: auto;
+    }
+}
+.anhgamehotnhat {
+    width: 100%;
+}
+.anhgamehotnhi {
+    width: 100%;
+}
+/*---thanh navigation-----------------*/
+.topnav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    min-height: 49px;
+    width: 100%;
+    z-index: 11;
+}
+
+  .topnav a {
+      float: left;
+      display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .active {
+    background-color: white;
+    color: white;
+}
+
+  .topnav .icon {
+      display: none;
+    }
+  
+    .dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .topnav a:hover:not(.active), .dropdown:hover .dropbtn {
+        background-color: #555;
+        color: white;
+    }
+    
+    .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+        float: right;
+      display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topnav.responsive {position: fixed; top: 0px;}
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+/*--kính lúp trên thanh nav--*/
+.kinhlup {
+    color: white;
+    position: fixed;
+    left: 95%;
+    font-size: 2rem;
+    top: 0.75%;
+    z-index: 11;
+}
+.kinhlup:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    .kinhlup {
+        color: white;
+        position: fixed;
+        left: 75%;
+        font-size: 1.5rem;
+        top: 1.6%;
+    }
+}
